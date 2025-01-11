@@ -84,7 +84,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     ];
 
     if ($user->register($userData)) {
-        header("Location: log_in.html");
+        header("Location: log_in.php");
         exit();
     } else {
         header("Location: sign_up.php");

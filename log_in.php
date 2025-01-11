@@ -12,7 +12,7 @@ session_start();
   <body>
 
 <h2>Log In</h2>
-<form method = "login_process.php" action = "POST">
+<form action = "login_process.php" method = "POST">
 <div>
 <input type = "text" id = "username" name = "username" placeholder = "Username" required> <br>
 </div>
@@ -20,6 +20,11 @@ session_start();
 <div>
   <input type = "password" id = "password" name = "password" placeholder = "Password" required>
 </div>
+
+<div>
+  <button  type = "submit">Log IN</button> 
+</div>
 </form>
+
   </body>
 </html>

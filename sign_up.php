@@ -111,7 +111,7 @@ if (isset($_SESSION['error_message'])) {
       <button type="submit">Sign Up</button>
 
       <!-- Link to Login Page -->
-      <p>Already have an account? <a href="log_in.html">Log in</a></p>
+      <p>Already have an account? <a href="log_in.php">Log in</a></p>
     </form>
   </body>
 </html>
